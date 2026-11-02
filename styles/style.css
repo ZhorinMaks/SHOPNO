@@ -1,0 +1,49 @@
+.o1 {
+    font-size: 25px;
+    color: aqua;
+    font-style: inherit;
+    font-weight: 900;
+    font-family: system-ui;
+}
+.o {
+    font-size: 20px;
+    font-style: inherit;
+    font-weight: 900;
+    font-family: system-ui;
+   
+}
+.n1 {
+    height: 30px;
+    width: 120px;
+    border: solid 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+    
+}
+
+
+
+.hello {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 55px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 50px; /*--4.6vw, 26px*/
+    gap: 10px;
+}
+
+.s2 {
+    background-color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
